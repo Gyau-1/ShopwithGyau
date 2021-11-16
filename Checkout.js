@@ -1,23 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
-export default class Home extends React.Component {
-    render() {
+export default function Checkout() {
   return (
     <View style={styles.container}>
-      <Text>WELCOME!</Text>
-      
-      <Button 
-        title = "Login"
-        on Press={
-            () => this.props.navigation.navigate('Login')
-        }
-      />  
+      <Text>Checkout!</Text>
       <StatusBar style="auto" />
     </View>
   );
-}
 }
 
 const styles = StyleSheet.create({
