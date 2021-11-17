@@ -1,7 +1,5 @@
-import Home from "./Home";
-import BookDetail from "./BookDetail"
+import icons from "./icons";
+import images from "./images";
+import theme, { COLORS, SIZES, FONTS } from "./theme";
 
-export {
-    Home,
-    BookDetail
-};
+export { icons, images, theme, COLORS, SIZES, FONTS };
